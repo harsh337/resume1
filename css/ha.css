@@ -1,15 +1,16 @@
-
-#title{
-  background-color:#066163;
+#nav{
+  background-color: #066163;
   color: #fff;
 }
+
 .container-fluid{
   padding: 1% 15% ;
+  background-color: #B5C0D0;
 }
 .fi{
-  color: #fff;
-  padding-bottom: 50px;
-  background-color:#066163;
+  text-align: center;
+  width: 55%;
+  position: relative;
 }
 .fi p {
   padding-left: 40%;  
@@ -18,17 +19,13 @@ h1{
   padding-top:70px;
   padding-left: 40%;
 }
-.fi img {
-  margin-left: 18%;
-}
 .fi1 {
-  padding: 60px 50px;
- text-align: center; 
+text-align: center;
 }
 .fi2 {
   padding: 30px 30px;
-  background-color: burlywood;
   text-align: center;
+ 
 }
 hr{
   border-style:none;
@@ -40,14 +37,9 @@ hr{
 h1{
   color: #3EDBF0;
 }
-h3{
-  color: #3EDBF0;
-}
 #testimonials{
   padding: 7% 15%;
   text-align: center;
-  background-color: #066163;
-  color: #fff;
 }
 .project {
   text-align: center;
@@ -60,9 +52,20 @@ h3{
 }
 #footer {
   padding: 3% 5%;
+  background-color: #066163;
   text-align: center;
   }
   .social-media {
     margin: 20px 20px;
     cursor: pointer;
   }
+  .image{
+    display: flex;
+    flex-wrap: wrap;
+    position:relative;
+    left: 80px;
+    bottom: 40px;
+  }
+h3{
+  text-align: center;
+}
